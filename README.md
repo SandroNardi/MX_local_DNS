@@ -99,7 +99,7 @@ Profiles can be assigned to networks to enable local DNS resolution for specific
 
 ---
 
-## DNote
+## Note
 
 The Local DNS Service on MX is only configurable via API at this time. The GUI implementation relies on API calls and requires proper configuration and permissions.
 
