@@ -639,10 +639,12 @@ def main():
 
 
 def disclaimer():
+    put_markdown("## MX Local DNS - Proof of concept")
     put_text(api_logic.DISCLAIMER_MESSAGE)
-
+    put_text(
+        "Please acknowledge the above to proccede",
+    )
     user_action = actions(
-        label="Please acknowledge to proceed:",
         buttons=[
             {"label": "I Acknowledge", "value": "ack"},
         ],
